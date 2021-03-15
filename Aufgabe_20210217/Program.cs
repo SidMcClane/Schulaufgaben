@@ -10,7 +10,7 @@
  * Funktion: Formatierte Ausgabe der bekanntesten Datentypen und ihr Wertebereich
  * ************************************************
  * Weitere Quellen: 
- * https://github.com/SidMcClane/ErsteApp           - Bisheriger Aufgabenspaghetti (Herr Faust)
+ * https://github.com/SidMcClane/ErsteApp           - Bisheriger Aufgaben (Herr Faust)
  * https://github.com/SidMcClane/Schulaufgaben      - Aufgaben ab 2021 (Herr Fecht)
  * ************************************************
  */
