@@ -89,6 +89,8 @@ namespace Schule_20210608 {
             Console.WriteLine(Klaus.getGebDatum());
             Console.WriteLine();
 
+            Klaus.maDaten();
+            Console.WriteLine();
 
             // MA anlegen mit Konstruktor (full)
             Mitarbeiter Gustav;
@@ -110,9 +112,30 @@ namespace Schule_20210608 {
             Console.WriteLine(Klaus.getMaID());
             Console.WriteLine();
 
+
+            // Alle Daten per Methode abrufen als Text
             Gustav.maDaten();
             Klaus.maDaten();
             Hans.maDaten();
+            Console.WriteLine();
+
+
+
+
+
+            Console.Write("Voname: ");
+            string inputVorname = Console.ReadLine();
+            Console.Write("Nachname: ");
+            string inputNachname = Console.ReadLine();
+            Console.Write("Gaburtsdatum: ");
+            int inputGebDatum = Convert.ToInt32(Console.ReadLine());
+            Console.Write("MitarbeiterID: ");
+            int inputMaID = Convert.ToInt32(Console.ReadLine());
+
+            Mitarbeiter Gabba;
+            Gabba = new Mitarbeiter(inputVorname, inputNachname, inputGebDatum, inputMaID);
+            Gabba.maDaten();
+            
 
             Console.ReadKey();
 
